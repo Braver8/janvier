@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>House Renting System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: skyblue;
+        }
+
+        header {
+            background-color: blue;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .main-section {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .featured-listings {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .listing {
+            width: 30%;
+            background-color: skyblue;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .listing img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to House Renting System</h1>
+        <button><a href="./login.html" style="color: white; text-decoration: none;">Logout</a></button>
+    </header>
+
+    <nav>
+        <div style="display: flex; justify-content: space-between; padding: 10px 20px;">
+            <div>
+                <button><a href="./home.html">Home</a></button>
+                <button><a href="buy_houses.html">Buy Houses</a></button>
+                <button><a href="#">Rent Houses</a></button>
+                <button><a href="./sell.html">Sell Houses</a></button>
+            </div>
+            <div>
+                <button><a href="./about.html">About Us</a></button>
+                <button><a href="./contact.html">Contact</a></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="main-section">
+            <h2>Featured Rental Properties</h2>
+            <div class="featured-listings">
+                <div class="listing">
+                    <img src="house1.jpg" alt="House 1">
+                    <h3>Family Home for Rent</h3>
+                    <p>4 bedrooms | 3 bathrooms | $350,000</p>
+                    <button><a href="#">Rent Now</a></button>
+                </div>
+                <div class="listing">
+                    <img src="house2.jpg" alt="House 2">
+                    <h3>Modern Apartment for Rent</h3>
+                    <p>2 bedrooms | 2 bathrooms | $2000/month</p>
+                    <button><a href="#">Rent Now</a></button>
+                </div>
+                <div class="listing">
+                    <img src="house3.jpg" alt="House 3">
+                    <h3>Cozy Cottage</h3>
+                    <p>3 bedrooms | 2 bathrooms | $250,000</p>
+                    <button><a href="#">Rent Now</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 UR CBE BIT Year 2 @two group</p>
+    </footer>
+</body>
+
+</html>
